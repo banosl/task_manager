@@ -1,6 +1,12 @@
 <h1>All Tasks</h1>
+<h2>All Tasks</h2>
+<h3>All Tasks</h3>
+<p>All Tasks</p>
+<div>All Tasks</div>
+<span>All Tasks</span>
+<section>All Tasks</section>
 
-<%= @tasks.each do |task| %>
+<% @tasks.each do |task| %>
   <h3><a href="/tasks/<%= task.id %>"><%= task.title %></a></h3>
   <p><%= task.description %></p>
   <a href="/tasks/<%= task.id %>/edit">Edit</a>
